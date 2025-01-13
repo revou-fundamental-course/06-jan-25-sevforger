@@ -10,7 +10,7 @@
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    background-image: url(https://media.licdn.com/dms/image/v2/C560BAQF6Eo1EbkC50A/company-logo_200_200/company-logo_200_200/0/1631312942037?e=1744848000&v=beta&t=40bmV8zpCprveQEVzKREPutOSErLO1TIPsMPYKfcdWg);
+    background-image: url(https://i.pinimg.com/736x/dc/3e/ca/dc3eca47b72a520e84264210cdf0b90e.jpg);
     background-size: contain;
 }
 
@@ -31,13 +31,14 @@ nav>a {
     padding: 8px;
     color: black;
     text-decoration: none;
+    background-color:rgb(214, 122, 79);
 }
 
 .banner-image {
-    height: 500px;
-    background-image: url(https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/1040/2023/11/08/Potret-Politeknik-Negari-Bandung-Ar-Roofi-Nurul-2036536435.jpg);
+    height: 675px;
+    background-image: url(https://i.pinimg.com/736x/5e/4c/3d/5e4c3d88ed8b22b28209a28190bad05d.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 .content {
