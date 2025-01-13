@@ -1,1 +1,50 @@
 /* ini css */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://media.licdn.com/dms/image/v2/C560BAQF6Eo1EbkC50A/company-logo_200_200/company-logo_200_200/0/1631312942037?e=1744848000&v=beta&t=40bmV8zpCprveQEVzKREPutOSErLO1TIPsMPYKfcdWg);
+    background-size: contain;
+}
+
+nav {
+    display: flex;
+}
+
+.left-rounded {
+    border-radius: 7px 0 0 7px;
+}
+
+.right-rounded {
+    border-radius: 0 7px 7px 0;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-image {
+    height: 500px;
+    background-image: url(https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/1040/2023/11/08/Potret-Politeknik-Negari-Bandung-Ar-Roofi-Nurul-2036536435.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.content {
+    height: 500px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
