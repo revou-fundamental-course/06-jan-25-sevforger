@@ -41,11 +41,33 @@ nav>a {
     background-position: center;
 }
 
+.first-content {
+    height: 25px;
+}
+
 .content {
-    height: 500px;
+    height: 400px;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
+}
+
+.locations {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.location {
+    text-align: center;
+}
+
+.location img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #000;
 }
