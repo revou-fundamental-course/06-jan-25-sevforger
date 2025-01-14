@@ -1,3 +1,11 @@
+// user greeting 
+function ubahNama(){
+    let nama = prompt("What is Your Name?", "");
+    document.getElementById("user-greeting").innerHTML = nama
+}
+
+ubahNama()
+
 // responsifitas mobile 
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
@@ -27,3 +35,15 @@ form.addEventListener("submit", function(event) {
     document.getElementById("outputGender").innerText = gender;
     document.getElementById("outputMessage").innerText = message;
 });
+
+// slide foto 
+const slides = document.querySelector('.slides');
+const totalSlides = document.querySelectorAll('.slide').length;
+let currentIndex = 0;
+
+function showNextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides; // Loop back to the first slide
+    slides.style.transform = `translateX(-${currentIndex * 100 / totalSlides}%)`;
+}
+
+setInterval(showNextSlide, 3000); // Change slide every 3 seconds

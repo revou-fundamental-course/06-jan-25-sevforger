@@ -1,14 +1,18 @@
 /* ini css */
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 .main-header {
-    margin: 8px 3% 8px 3%;
+    margin: 8px 10% 8px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 main {
-    margin: 8px 3% 8px 3%;
+    margin: 8px 10% 8px 10%;
     padding: 0;
 }
 
@@ -40,12 +44,31 @@ nav>a {
     background-color:rgb(214, 122, 79);
 }
 
-.banner-image {
-    height: 675px;
-    background-image: url(https://i.pinimg.com/736x/5e/4c/3d/5e4c3d88ed8b22b28209a28190bad05d.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 5%;
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 500%;
+}
+
+.slide {
+    width: 20%;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .first-content {
@@ -53,7 +76,7 @@ nav>a {
 }
 
 .content {
-    height: 200px;
+    height: 100px;
 }
 
 .copyright {
@@ -82,7 +105,6 @@ nav>a {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 20px;
 }
 
@@ -184,3 +206,5 @@ button:hover {
         display: flex;
     }
 }
+
+/* shop now  */
