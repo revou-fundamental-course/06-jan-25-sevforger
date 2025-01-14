@@ -1,4 +1,11 @@
-// ini JS 
+// responsifitas mobile 
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+// Tambahkan event listener untuk toggle menu
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+});
 
 // waktu skrg
 document.getElementById("currentTime").innerText = new Date().toLocaleString();

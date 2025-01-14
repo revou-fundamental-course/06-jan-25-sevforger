@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company</title>
+    <title>CazeDesk</title>
 
     <!-- CSS  -->
     <link rel="stylesheet" href="css\styles.css">
@@ -17,12 +17,18 @@
         <div class="logo-icon"></div>
 
         <!-- Nav -->
-        <nav>
-            <a href="#home-page" class="left-rounded">Home</a>
-            <a href="#our-profile">Our Profile</a>
-            <a href="#portofolio">Portofolio</a>
-            <a href="#message-us" class="right-rounded">Message Us</a>
+        <nav class="navbar">
+            <button class="menu-toggle" id="menuToggle">
+                &#9776; <!-- Ikon garis tiga -->
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home-page">Home</a></li>
+                <li><a href="#our-profile">Our Profile</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#message-us">Message Us</a></li>
+            </ul>
         </nav>
+    
     </header>
 
 <hr />
@@ -47,11 +53,13 @@
         <br>
         <br>
         <br>
-        <hr/>
         <section>
             <!-- Title  -->
             <header id="our-profile">
-                <h1>Our Profile</h1>
+                <h1 style="
+                    display: flex;
+                    justify-content: center;
+                ">Our Profile</h1>
                 <div class="locations">
                     <div class="location">
                         <img src="https://www.jll.co.id/images/apac/articles/jll-article-indonesia-moves-its-capital-city-teaser.jpg.rendition/800x450.jpg" alt="Indonesia">
@@ -68,8 +76,6 @@
             <div class="first-content"></div>
         </section>
 
-        <hr/>
-
         <!-- Portofolio  -->
         <section>
             <header id="portofolio">
@@ -82,7 +88,10 @@
         <!-- Message Us  -->
         <section>
             <header id="message-us">
-                <h1>Message Us</h1>
+                <h1 style="
+                    display: flex;
+                    justify-content: center;
+                ">Message Us</h1>
             </header>
 
             <div class="container">
