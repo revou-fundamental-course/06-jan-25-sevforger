@@ -46,7 +46,7 @@ nav>a {
 }
 
 .content {
-    height: 400px;
+    height: 300px;
 }
 
 .copyright {
@@ -70,4 +70,47 @@ nav>a {
     height: 200px;
     border-radius: 50%;
     border: 1px solid #000;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+form, .output {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FFFAEC;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #9b6c41;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #9b6c41;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antar elemen */
+}
+
+.radio-group label {
+    margin: 0;
 }

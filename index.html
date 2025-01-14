@@ -35,10 +35,9 @@
         <section>
             <!-- Title  -->
             <header id="home-page">
-                <h1>Hi <span id="user-greeting">User</span>, Welcome to CazeDesk Essentials</h1>
-                <p>At CazeDesk Essentials, we believe in empowering your setup with precision, performance, and style. Specializing in high-quality peripherals and equipment, we offer a curated selection of products including ergonomic keyboards, responsive mice, stunning monitors, and all the accessories you need to create the ultimate workspace or gaming station.
-
-                    Whether you're a professional seeking efficiency or a gamer chasing perfection, our mission is to provide tools that inspire and enhance your daily experience. Explore CazeDesk Essentials for solutions that seamlessly blend innovation, functionality, and aesthetics.</p>
+                <h1>Hi <span id="user-greeting">User</span>, Welcome to CazeDesk</h1>
+                <p>At CazeDesk, we believe in empowering your setup with precision, performance, and style. Specializing in high-quality peripherals and equipment, we offer a curated selection of products including ergonomic keyboards, responsive mice, stunning monitors, and all the accessories you need to create the ultimate workspace or gaming station.
+                    Whether you're a professional seeking efficiency or a gamer chasing perfection, our mission is to provide tools that inspire and enhance your daily experience. Explore CazeDesk for solutions that seamlessly blend innovation, functionality, and aesthetics.</p>
             </header>
 
             <div class="banner-image">
@@ -88,6 +87,38 @@
                 <h1>Message Us</h1>
             </header>
 
+            <div class="container">
+                <form id="messageForm">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Nama" required>
+        
+                    <label for="dob">Tanggal Lahir:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label>Jenis Kelamin:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="Male" checked>
+                        <label for="male">Male</label>
+
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Pesan" required></textarea>
+        
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="output" id="output">
+                    <h3>Hasil Input</h3>
+                    <p>Current time: <span id="currentTime"></span></p>
+                    <p>Nama: <span id="outputName"></span></p>
+                    <p>Tanggal Lahir: <span id="outputDob"></span></p>
+                    <p>Jenis Kelamin: <span id="outputGender"></span></p>
+                    <p>Pesan: <span id="outputMessage"></span></p>
+                </div>
+            </div>
+            <script src="js\script.js"></script>
             <div class="content"></div>
         </section>
     </main>
