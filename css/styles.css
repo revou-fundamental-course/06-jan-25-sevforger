@@ -1,7 +1,7 @@
 /* ini css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .main-header {
@@ -86,6 +86,7 @@ nav>a {
 
 .locations {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 70px;
     margin-top: 20px;
@@ -99,7 +100,7 @@ nav>a {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid
 }
 
 .container {
@@ -208,3 +209,55 @@ button:hover {
 }
 
 /* shop now  */
+.ui-shop {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.ui-shop2 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    gap: 20px;
+    max-width: 5000px;
+}
+
+.image-shop img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.image-shop2 img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.description {
+    max-width: 500px;
+}
+
+.description2 {
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .image-shop {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-shop img {
+        width: 100%;
+    }
+
+    .image-shop2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-shop2 img {
+        width: 100%;
+    }
+}
